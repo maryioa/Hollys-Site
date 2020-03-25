@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+  }
+ 
+
+  
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+div { 
+    padding: 20px;
+}
+
+
+.header {
+    background-color: #0D1D17;
+}
+
+
+.nav {
+    z-index: 999;
+    float: right;
+}
+.nav li {
+    float: left;
+    list-style: none;
+}
+.nav a {
+    display: block;
+    line-height: 10px;
+}
