@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="EN">
-	<head>
-		<title>Holly's Lounge</title>
+    
+    <head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="The most luxurious Lounge in Dublin" />
-		<meta name="author" content="Mary" />
-		<link type="text/css" rel="stylesheet" href="css/reset.css"></link>
-		<link type="text/css" rel="stylesheet" href="css/master.css"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Holly's Lounge</title>
+		<meta name="description" content="The most luxurious Lounge in Dublin"/>
+		<meta name="author" content="Mary Ioannou"/>
+        <link rel="stylesheet" href="https://use.typekit.net/two1sca.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/reset.css">
+		<link type="text/css" rel="stylesheet" href="css/master.css">
 	</head>
-	<body>
-		<header class="header">
-            <div class="container">
-                <nav>
-                    <ul class="nav">
-						<li class="home"><a href="index.html"></a></li>
-                        <li class="book-now"><a href="booknow.html">BOOK NOW</a></li>
-                        <li class="about-us"><a href="aboutus.html">ABOUT US</a></li>
-                        <li class="lounge"><a href="lounge.html">LOUNGE</a></li>
-						<li class="location"><a href="location.html">LOCATION</a></li>
-						<li class="contact-us"><a href="contactus.html">CONTACT US</a></li>
-                    </ul>
-                </nav>
-            </div>
-		</header>
 
-		<div id="first"></div>
+	<body id="top">
+    <!-- ******************************** -->
+        <header>
+        <h2><img src="images/Logo_colour_cb.png" alt=""></h2>
+        <nav>
+            <ul>
+                <li><a href="booknow.html">BOOK NOW</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="lounge.html">LOUNGE</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        </header>
+    
+
+        <div id="first"></div>
 
 
-		<div id="hollysloungepara">
-			<div id="hollyslounge">
-				<h2>Holly's Lounge</h2>
-				<div id="plounge"><p>Holly’s Lounge has been a gem in Dublin<br> since 2015. <br>
-				<br>
+        <div id="hollysloungepara">
+            <div id="hollyslounge">
+              <h2>Holly's Lounge</h2>
+              <div id="plounge"><p>Holly’s Lounge has been a gem in Dublin<br> since 2015. <br>
+                  <br>
 				Great for brunch, lunch, dinner or even<br> better for cocktails during the day.<br>
 				<br>
 				With a sophisticated yet modern and<br> minimalistic approach, Holly’s is changing<br> your way of relaxing.</p>
-				</div>
-			</div>
-		</div>
+              </div>
+            </div>
+        </div>
 
 
-		<h1>THE LUXURY THAT SHINES<br>
-		LIKE DIAMONDS</h1>
+        <h1>THE LUXURY THAT SHINES<br>LIKE DIAMONDS</h1>
+        
+    <!-- ******************************** -->
+  <footer id="social-media">
+    <h6><img src="images/Logo_colour.png"></h6>
+      <!---    <p>&copy; <script>document.write(new Date().getFullYear());</script> Mary Ioannou.</p>--->
+    
+    <p>Adreess -------  Telephone -------- email --------- </p>
+         
+    <ul>
+      <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+      <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+      <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+    </ul>
+  </footer>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
 
-		
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top - 100
+        }, 900, 'swing', function() {
+          window.location.hash = target - 100;
+        });
+      });
+    });
+  </script>
+    
 		
 	</body>
 </html>
