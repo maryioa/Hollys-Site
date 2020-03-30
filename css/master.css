@@ -146,17 +146,7 @@ images in each page
     background-position: center;
 }
 
-.firstlocation {
-    background-image:url("../images/map1.jpg");
-    margin-left: auto;
-    margin-right: auto;
-    width: 980px;
-    height: 500px;
-    object-fit: fill;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 
 .firstlounge {
     background-image:url("../images/lounge1.jpg");
@@ -172,6 +162,28 @@ images in each page
 
 
 /* --------------
+MAP LOCATION
+-----------------*/
+
+section.flexbox-section {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;   
+}
+
+section.flexbox-section p {
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+
+
+
+/* --------------
 HOME PAGE
 -----------------*/
 
@@ -180,7 +192,7 @@ div#hollysloungepara {
     text-align: left center;
     background-color: #E4E2E2;
     background-position: center;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     color: #030303;
@@ -196,21 +208,16 @@ div#hollyslounge {
 }
 
 div#imagelounge {
-    position: absolute;
-    background-clip: content-box;
-    background-size: cover;
-    background-position: le;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 68%;
-    background-size: auto;
+    width: 30%;
     height: 200px;
+    display: flex;
+    background-size: cover;
     object-fit: fill;
-    
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-
 
 
 
@@ -235,7 +242,7 @@ FOOTER
 
 footer {
     background: #0D1D17;
-    width: 1240px;
+    width: 1140px;
     justify-content: space-around;
     left: 0px;
     bottom: 0px;
@@ -243,7 +250,7 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
-    padding: 30px 100px 20px;
+    padding: 30px 200px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
