@@ -219,16 +219,16 @@ div#hollyslounge {
 }
 
 .button {
-  background-color: #0D1D17;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10px 2px;
-  cursor: pointer;
-    
+    background-color: #0D1D17;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .button {
@@ -334,9 +334,6 @@ div#imagemission {
 
 
 
-
-
-
 /* --------------
 SUBSCRIPTION
 -----------------*/
@@ -390,12 +387,22 @@ input[type=submit]:hover {
 
 
 
-
-
-
 /* --------------
 CONTACT US FORM
 -----------------*/
+
+div#contact {
+    text-align: center;
+    color: #E4E2E2;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+div#conh2 {
+    font-size: 30pt;
+}
+
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 10px;
@@ -405,7 +412,6 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 10px;
     resize: vertical;
-    align-content: center;
 }
 
 input[type=submit] {
@@ -423,6 +429,38 @@ input[type=submit]:hover {
     opacity: 0.8;
 }
 
+/* --------------
+INSTAGRAM
+-----------------*/
+
+div#instagram{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    overflow: hidden;
+    background-color: #E4E2E2;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    height: 400px;
+}
+
+
+div#instah2 {
+    color: #0D1D17;
+    line-height: 2;
+    font-size: 30pt;
+}
+
+div.row {
+  display: flex;
+}
+
+div.column {
+  flex: 33.33%;
+  padding: 5px;
+}
 
 
 

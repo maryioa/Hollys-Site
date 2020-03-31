@@ -42,10 +42,48 @@
         </section>
     </div>
         
+ <!-- ******************************** --> 
         
         
+        <div id="subscribe">
+            <div id="subh2"><h2>SUBSCRIBE</h2></div>
+            <div id="subp"><p>Sign up with your name and your email address to receive news and offers</p></div>
+        </div>
         
+       
         
+        <form action="/action_page.php">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> You read and understand our privacy policy</label>
+                <input type="submit" value="SUBSCRIBE">
+        </form>
+        
+  <!-- ******************************** -->
+        
+        <div id="instagram">
+            <div id="instah2"><h2>INSTAGRAM</h2></div>
+            
+            <div class="row">
+            <div class="column">
+                <img src="images/insta1.jpg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta2.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta3.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta4.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta5.jpg" alt="Mountains" style="width:100%">
+            </div>
+            </div>
+        </div>
+                
 <!-- ******************************** -->
   <footer>
     <h6><img src="images/Logo_colour.png"></h6>
@@ -60,25 +98,6 @@
     </ul>
   </footer>
         
-
-        
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('a[href^="#"]').on('click', function(e) {
-        e.preventDefault();
-
-        var target = this.hash;
-        var $target = $(target);
-
-        $('html, body').stop().animate({
-          'scrollTop': $target.offset().top - 100
-        }, 900, 'swing', function() {
-          window.location.hash = target - 100;
-        });
-      });
-    });
-  </script>
-    
 		
 	</body>
 </html>

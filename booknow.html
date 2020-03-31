@@ -31,12 +31,83 @@
 <!-- ******************************** -->  
    
     <div class="firstbook"></div>
+        
+   <div id="contact">
+            <div id="conh2"><h2>BOOK NOW</h2></div>
+        </div>
+        
+     <div class="container">
+         <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
              
-    
+             <label for="tel">Telephone</label>
+            <input type="text" id="tel" name="tel" placeholder="Your tel..">
+             
+             <label for="people">People</label>
+            <input type="text" id="people" name="people" placeholder="How many people..">
+             
+             <label for="date">Date</label>
+            <input type="text" id="date" name="date" placeholder="Select your date..">
+             
+             <label for="time">Time</label>
+            <input type="text" id="time" name="time" placeholder="Select your time..">
+
+            <input type="submit" value="BOOK">
+
+        </form>
+    </div>    
+                  
+  <!-- ******************************** --> 
         
         
+        <div id="subscribe">
+            <div id="subh2"><h2>SUBSCRIBE</h2></div>
+            <div id="subp"><p>Sign up with your name and your email address to receive news and offers</p></div>
+        </div>
         
-           
+       
+        
+        <form action="/action_page.php">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> You read and understand our privacy policy</label>
+                <input type="submit" value="SUBSCRIBE">
+        </form>
+        
+  <!-- ******************************** -->
+        
+        <div id="instagram">
+            <div id="instah2"><h2>INSTAGRAM</h2></div>
+            
+            <div class="row">
+            <div class="column">
+                <img src="images/insta1.jpg" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta2.jpg" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta3.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta4.jpg" alt="Mountains" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/insta5.jpg" alt="Mountains" style="width:100%">
+            </div>
+            </div>
+        </div>
+        
+        
         
 <!-- ******************************** -->
   <footer>
@@ -51,24 +122,6 @@
       <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
     </ul>
   </footer>
-
-<!-- ******************************** -->
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('a[href^="#"]').on('click', function(e) {
-        e.preventDefault();
-
-        var target = this.hash;
-        var $target = $(target);
-
-        $('html, body').stop().animate({
-          'scrollTop': $target.offset().top - 100
-        }, 900, 'swing', function() {
-          window.location.hash = target - 100;
-        });
-      });
-    });
-  </script>
     
 		
 	</body>
