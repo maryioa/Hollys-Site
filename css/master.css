@@ -134,6 +134,19 @@ images in each page
     background-position: center;
 }
 
+.secondabout {
+    background-image: url("../images/about2.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    height: 400px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .firstcontact {
     background-image:url("../images/contact1.jpg");
     margin-left: auto;
@@ -428,6 +441,35 @@ input[type=submit] {
 input[type=submit]:hover {
     opacity: 0.8;
 }
+
+
+/* --------------
+GALLERY
+-----------------*/
+div#gallery{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    overflow: hidden;
+    background-color: #E4E2E2;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    height: 260px;
+}
+
+
+div#galleryh2 {
+    color: #0D1D17;
+    line-height: 2;
+    font-size: 30pt;
+}
+
+
+
+
+
 
 /* --------------
 INSTAGRAM
