@@ -214,9 +214,31 @@ div#hollyslounge {
     letter-spacing: 1;
     line-height: 1;
     opacity: 1;
-    padding: 50px;
-    margin-left: 50px;
+    padding: 40px;
+    margin-left: 60px;
 }
+
+.button {
+  background-color: #0D1D17;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 2px;
+  cursor: pointer;
+    
+}
+
+.button {
+    font-size: 14px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
 
 div#imagelounge {
     padding: 37px;
@@ -282,8 +304,9 @@ div#hollysmission {
     letter-spacing: 1;
     line-height: 1;
     opacity: 1;
-    padding: 50px;
+    padding: 40px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -311,14 +334,91 @@ div#imagemission {
 
 
 
-
 /* --------------
 SUBSCRIPTION
 -----------------*/
 
 
+div#subscribe {
+    text-align: center;
+    color: #E4E2E2;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+div#subh2 {
+    font-size: 30pt;
+}
 
 
+div#subp {
+    font-size: 14pt;
+}
+
+
+form {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+input[type=text], input[type=submit] {
+    width: 25px;
+    padding: 200px;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    font-size: 10pt;
+    box-sizing: content-box;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+/* --------------
+CONTACT US FORM
+-----------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+    align-content: center;
+}
+
+input[type=submit] {
+    width: 70px;
+    background-color: white;
+    color: #0D1D17;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 180px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
 
 
 
