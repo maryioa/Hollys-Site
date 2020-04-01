@@ -187,7 +187,7 @@ section.flexbox-section {
 }
 
 section.flexbox-section p {
-    max-width: 900px;
+    max-width: 980px;
     text-align: center;
     margin-bottom: 35px;
     line-height: 1.5;
@@ -365,7 +365,7 @@ div#opening {
 }
 
 div#openingh2 {
-    text-align: center;
+    margin-left: 250px;
     font-weight: 50;
     font-size: 20pt;
 }
@@ -389,7 +389,7 @@ div#openingpara {
     text-decoration: none;
     display: inline-block;
     margin: 10px 2px;
-    margin-left: 370px;
+    margin-left: 330px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -402,6 +402,19 @@ div#openingpara {
     opacity: 0.8;
 }
 
+table {
+    font-size: 15pt;
+    margin-left: 190px;
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+td, th {
+    text-align: center;
+    padding: 10px;
+}
 
 
 
