@@ -231,7 +231,7 @@ div#hollyslounge {
     margin-left: 60px;
 }
 
-.button {
+.button2 {
     background-color: #0D1D17;
     border: none;
     color: white;
@@ -244,11 +244,11 @@ div#hollyslounge {
     border-radius: 5px;
 }
 
-.button {
+.button2 {
     font-size: 14px;
 }
 
-.button:hover {
+.button2:hover {
     opacity: 0.8;
 }
 
@@ -344,6 +344,64 @@ div#imagemission {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* --------------
+OPENING
+-----------------*/
+div#opening {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    overflow: hidden;
+    background-color: #E4E2E2;
+    background-position: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: #030303;
+    width: 980px;
+    height: 300px;
+}
+
+div#openingh2 {
+    text-align: center;
+    font-weight: 50;
+    font-size: 20pt;
+}
+
+div#openingpara {
+    text-align: left;
+    flex: 1 1 auto;
+    letter-spacing: 1;
+    line-height: 1;
+    opacity: 1;
+    padding: 40px;
+    margin-left: 60px;
+}
+
+.button1 {
+    background-color: #0D1D17;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 2px;
+    margin-left: 370px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1 {
+    font-size: 14px;
+}
+
+.button1:hover {
+    opacity: 0.8;
+}
+
 
 
 
