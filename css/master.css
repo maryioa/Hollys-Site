@@ -564,7 +564,7 @@ div#conh2 {
 
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 410px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -643,12 +643,12 @@ div#instah2 {
 }
 
 div.row {
-  display: flex;
+    display: flex;
 }
 
 div.column {
-  flex: 33.33%;
-  padding: 5px;
+    flex: 33.33%;
+    padding: 5px;
 }
 
 
@@ -718,12 +718,12 @@ footer nav li:last-child {
 
 
 @media(max-width: 800px) {
-  footer {
+    footer {
       text-align: center;
       flex-direction: column;
-      padding: 50px 15px;
+      padding: 80px 15px;
   }
-
+    
     footer nav {
         justify-content: space-around;
     }
