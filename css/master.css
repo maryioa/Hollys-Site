@@ -205,6 +205,7 @@ div#hollysloungeparahome {
     flex-wrap: nowrap;
     flex-direction: row;
     text-align: center;
+    align-content: center;
     overflow: hidden;
     background-color: #E4E2E2;
     background-position: center;
@@ -246,7 +247,12 @@ div#diamonds {
     margin-right: auto;
     width: 980px;
     height: 260px;
+    display: flex;
     object-fit: fill;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,14 +260,10 @@ div#diamonds {
 
 div#diamondsh2{
     background: #0D1D17 0% 0% no-repeat;
-    background-position: center;
     background-size: cover;
+    text-align: center;
     width: 600px;
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    text-align: center;
     font-size: 30pt;
     font-weight: 600;
     color: #E4E2E2;
@@ -276,6 +278,7 @@ div#hollysmissionparahome {
     flex-wrap: nowrap;
     flex-direction: row;
     text-align: center;
+    align-content: center;
     overflow: hidden;
     background-color: #E4E2E2;
     background-position: center;
@@ -349,6 +352,7 @@ ABOUT US
 div#hollysloungepara {
     flex-wrap: nowrap;
     flex-direction: row;
+    align-content: center;
     text-align: center;
     overflow: hidden;
     background-color: #E4E2E2;
@@ -388,6 +392,7 @@ div#imagelounge {
 div#hollysmissionpara {
     flex-wrap: nowrap;
     flex-direction: row;
+    align-content: center;
     text-align: center;
     overflow: hidden;
     background-color: #E4E2E2;
